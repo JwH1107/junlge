@@ -5,8 +5,14 @@
 .main-container {
   width: 100%;
   height: 100%;
+  background-color: black;
 }
 .monkey {
   width: 150px;
-
+  height: 150px;
+  transition: widht 2s;
+}
+.monkey:hover {
+  width: 500px;
+  height: 500px;
 }
