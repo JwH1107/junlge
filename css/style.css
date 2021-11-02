@@ -7,9 +7,10 @@
   position: relative;
 }
 .monkey {
+  width: 100px;
+  height: 100px;
   position: relative;
-  width: 20px;
-  height: 20px;
+  animation: example 5s linear 2s infinite alternate;
   transition: width 2s, height 2s;
 }
 .monkey:hover {
@@ -34,4 +35,4 @@
   height: 200px;
   transition: linear 1s, width 2s;
 }
-.frog:
+.frog: ;
