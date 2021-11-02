@@ -5,12 +5,12 @@
 .main-container {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: green;
 }
 .monkey {
-  width: 150px;
-  height: 150px;
-  transition: widht 2s;
+  width: 20px;
+  height: 20px;
+  transition: width 2s, height 2s;
 }
 .monkey:hover {
   width: 500px;
