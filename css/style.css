@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: green;
 }
 .main-container {
   position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: green;
 }
 .monkey {
   position: relative;
@@ -31,3 +29,9 @@
   width: 400px;
   height: 400px;
 }
+.frog {
+  width: 200px;
+  height: 200px;
+  transition: linear 1s, width 2s;
+}
+.frog:
